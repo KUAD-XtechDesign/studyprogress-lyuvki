@@ -18,7 +18,7 @@
 /* -------home.html/.header/.border------- */
 
 .header-area .border {
-  margin: 70px auto 0 0;
+  margin: 70px auto 0 20px;
   border-top: 3px solid rgb(189, 189, 189);
   width: 2100px;
   height: 0;
@@ -60,7 +60,7 @@
 /* -------home.html/.new_posts------ */
 
 .new-posts {
-  display: flex;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
@@ -68,11 +68,13 @@
 /* -------home.html/.new_posts------- */
 
 .new-posts .new-post {
+  display: inline-block;
   width: 300px;
   height: 230px;
   border: 2px solid #E2E2E2;
   margin-left: 10px;
   margin-right: 10px;
+  margin: 0 10px 10px 10px;
 }
 
 .new-posts .new-post img {
@@ -91,7 +93,12 @@ a {
 
 /* -------home.html/.profile-area/.profile------- */
 
+.profile-area {
+  display: block;
+}
+
 .profile {
+  display: inline-block;
   margin-top: 7px;
   margin-left: auto;
   margin-right: 20px;
