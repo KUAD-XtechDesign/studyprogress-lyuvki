@@ -91,12 +91,6 @@ a {
   text-decoration: none;
 }
 
-/* -------home.html/.profile-area/.profile------- */
-
-.profile-area {
-  display: block;
-}
-
 .profile {
   display: inline-block;
   margin-top: 7px;
@@ -239,3 +233,41 @@ a {
 .post .border {
   border-bottom: 3px solid gray;
 }
+
+.post1_body {
+  background: rgb(209, 209, 209);
+}
+
+.post1_header {
+  background: white;
+  margin: 0 100px  0 100px;
+}
+
+.post1_header h1 {
+  text-align: center;
+}
+
+.post1_main {
+  display: block;
+  text-align: center;
+  margin: 0 100px 0 100px;
+  padding: 20px 20px;
+  background: white;
+}
+
+.post1_main h2 {
+  margin-bottom: 0;
+}
+
+.post1_main div p {
+  display: inline-block;
+  text-align: left;
+}
+
+.post1_main div img {
+  display: inline-block;
+  text-align: center;
+  height: 300px;
+  width: 500px;
+}
+
