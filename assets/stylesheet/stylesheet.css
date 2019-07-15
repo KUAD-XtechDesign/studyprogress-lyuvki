@@ -68,8 +68,8 @@ a {
   height: 1px;
 }
 
-hr {
-  width: 70%;
+.post hr {
+  width: 50%;
 }
 
 .contents {
