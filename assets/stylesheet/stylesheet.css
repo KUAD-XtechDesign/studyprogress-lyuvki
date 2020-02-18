@@ -16,7 +16,7 @@ p, a, h1, h2, h3, li {
   font-size: 20px;
 }
 
-.main {
+.main, .post {
   text-align: center;
 }
 
@@ -88,6 +88,11 @@ li {
 .contents ul li {
   text-align: left;
   margin-bottom: 5px;
+}
+
+footer {
+  font-size: 20px;
+  text-align: center;
 }
 
 @media screen and (max-width: 1000px) {
