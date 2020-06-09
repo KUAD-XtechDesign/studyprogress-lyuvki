@@ -1,3 +1,7 @@
+body {
+  margin: 10px 0 0;
+}
+
 p, a, h1, h2, h3, li {
   text-align: center;
   font-family: "Interstate",
@@ -7,22 +11,29 @@ p, a, h1, h2, h3, li {
 }
 
 .lessons {
+  display: block;
+  margin: 0 24px;
+}
+.lessons-inner {
   text-align: center;
 }
 
 .lessons p {
   display: inline-block;
-  margin: 25px 25px 0 20px;
+  padding-left: 40px;
   font-size: 20px;
 }
 
 .main, .post {
   text-align: center;
+  margin: 0 24px;
 }
 
-.main img {
+.profile-image {
   display: inline-block;
   margin-top: 30px;
+  width: 400px;
+  height: auto;
 }
 
 .text-profile {
@@ -33,11 +44,11 @@ p, a, h1, h2, h3, li {
   height: 400px;
 }
 
-.text-profile h3 {
+.profile-name {
   font-size: 30px;
   color: rgb(110, 110, 110);
   text-align: left;
-  margin: 10px 10px 10px 20px;
+  margin: 30px 10px 10px 20px;
 }
 
 .text-profile p {
@@ -63,8 +74,11 @@ a {
   height: 1px;
 }
 
-.post hr {
-  width: 50%;
+.profile-hr {
+  margin: 10px 70px 10px 20px;
+  background-color: gray; 
+  border: none; 
+  height: 1px;
 }
 
 .contents {
@@ -95,17 +109,73 @@ footer {
   text-align: center;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1080px) {
 
-  .lessons {
-    margin: 0 auto;
-    width: 600px;
+  .lessons-inner p {
+    padding: 0;
+    margin: 10px 0;
   }
 
-  .main {
-    margin: 0 auto;
-    width: 600px;
+  .profile-name {
+    margin-top: 0;
+    font-size: 24px;
   }
+
+  .text-profile p {
+    font-size: 15px;
+  }
+
+  main {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .profile-image {
+    margin-bottom: 20px;
+    width: 300px;
+    height: auto;
+  }
+
+  .text-profile {
+    margin: 0;
+    width: 300px;
+    height: 300px;
+  }
+
+  .contents {
+    width: 100%;
+  }
+
+  .links {
+    margin-left: 50px;
+  }
+
+  video {
+    width: 300px;
+    height: auto;
+  }
+
+  iframe {
+    width:300px;
+    height: auto;
+  }
+
+  .profile-hr {
+    width: 85%;
+    margin: 10px 17px 0;
+  }
+
+
+  .footer-name {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #d8d8d8;
+  }
+
+  footer {
+    margin:40px 0;
+  }
+
 
 }
 
